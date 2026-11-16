@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christian James Stevic — Senior Software Engineer</title>
+  <meta name="description" content="Christian James Stevic — Senior Software Engineer with 12+ years building full-stack platforms, distributed backends, mobile apps and cloud infrastructure." />
+  <meta property="og:title" content="Christian James Stevic — Senior Software Engineer" />
+  <meta property="og:description" content="12+ years shipping full-stack platforms, microservices, mobile apps and cloud infrastructure." />
+  <meta name="theme-color" content="#0b0d12" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    try {
+      var t = localStorage.getItem("theme");
+      document.documentElement.dataset.theme = t || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+    } catch (e) {}
+  </script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%237c5cff'/><text x='50' y='66' font-family='monospace' font-size='46' font-weight='700' text-anchor='middle' fill='white'>CS</text></svg>" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="logo" aria-label="Home">
+        <span class="logo__mark">&lt;/&gt;</span>
+        <span class="logo__text">cjstevic</span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Stack</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#review">Code Review</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact" class="btn btn--sm">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle color theme">
+          <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="icon-btn nav__burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__grid-bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="pulse"></span> Open to senior engineering &amp; AI code-evaluation roles</p>
+          <h1>
+            Christian James Stevic
+            <span class="hero__role">I build <span class="grad">reliable systems</span> that scale.</span>
+          </h1>
+          <p class="hero__lead">
+            Senior Software Engineer with <strong>12+ years</strong> shipping full-stack platforms,
+            distributed backends, mobile apps and cloud infrastructure — and reviewing the code
+            that holds them together.
+          </p>
+          <div class="hero__cta">
+            <a href="#experience" class="btn">View my work</a>
+            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+          <ul class="hero__social" aria-label="Profiles">
+            <li><a href="https://github.com/jamesstevic-dev" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+            </a></li>
+            <li><a href="https://linkedin.com/in/jamesstevic-eng" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+            </a></li>
+            <li><a href="https://stackoverflow.com/users/jamesstevic" target="_blank" rel="noopener" aria-label="Stack Overflow">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.99 21.87v-6.4h2.13V24H1.9v-8.53h2.13v6.4h14.96zM6.1 19.73h10.66v-2.13H6.1v2.13zm.26-4.85 10.42 2.18.45-2.09-10.42-2.18-.45 2.09zm1.35-5.04 9.65 4.5.9-1.93-9.65-4.5-.9 1.93zm2.7-4.76 8.17 6.82 1.36-1.63-8.17-6.82-1.36 1.63zM15.69 0l-1.71 1.27 6.35 8.54 1.71-1.27L15.69 0z"/></svg>
+            </a></li>
+            <li><a href="mailto:stevicchrisjames@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+            </a></li>
+          </ul>
+        </div>
+
+        <!-- terminal card -->
+        <div class="terminal" aria-label="Profile summary as code">
+          <div class="terminal__bar">
+            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+            <span class="terminal__title">~/engineer.py</span>
+          </div>
+          <pre class="terminal__body"><code id="typed"></code><span class="caret" aria-hidden="true"></span></pre>
+        </div>
+      </div>
+
+      <!-- stats -->
+      <div class="container">
+        <ul class="stats">
+          <li><span class="stats__num" data-count="12" data-suffix="+">0</span><span class="stats__label">Years shipping production code</span></li>
+          <li><span class="stats__num" data-count="10" data-suffix="M+">0</span><span class="stats__label">API requests handled daily</span></li>
+          <li><span class="stats__num" data-count="99.7" data-decimals="1" data-suffix="%">0</span><span class="stats__label">Uptime after monolith migration</span></li>
+          <li><span class="stats__num" data-count="50" data-suffix="K+">0</span><span class="stats__label">Weekly downloads of my npm package</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="section__head reveal">
+          <p class="kicker">01 — About</p>
+          <h2>Engineer, reviewer, mentor.</h2>
+        </div>
+        <div class="about__body reveal">
+          <p>
+            I've spent over a decade turning complex requirements into dependable software — from
+            iOS apps with 100K+ downloads, to Kafka pipelines processing <strong>100K events per second</strong>,
+            to microservice platforms serving <strong>500K+ monthly active users</strong>.
+          </p>
+          <p>
+            Beyond writing code, I care deeply about the code itself: how it reads, how it fails, and how
+            it evolves. I lead code reviews, build tooling that catches anti-patterns before they ship,
+            and contribute technical expertise to <strong>AI-focused code evaluation and training workflows</strong>.
+          </p>
+          <p>
+            I'm fluent across Python, TypeScript, Java, Go and C++, comfortable on AWS, Azure and GCP,
+            and happiest when explaining a hard concept clearly enough that someone else can run with it.
+          </p>
+          <div class="about__facts">
+            <div><span>Based in</span><strong>Green, Ohio, USA</strong></div>
+            <div><span>Currently</span><strong>Senior SWE @ TechVision</strong></div>
+            <div><span>Education</span><strong>BS CS, UT Austin — Magna Cum Laude</strong></div>
+            <div><span>Work style</span><strong>Remote-first, self-directed</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">02 — Technical Stack</p>
+          <h2>Tools I reach for.</h2>
+          <p class="section__sub">Breadth across the stack, depth where it counts.</p>
+        </div>
+
+        <div class="skills">
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">{ }</div>
+            <h3>Languages</h3>
+            <ul class="chips">
+              <li class="chip chip--hot">Python</li><li class="chip chip--hot">TypeScript</li><li class="chip chip--hot">JavaScript</li>
+              <li class="chip chip--hot">Java</li><li class="chip chip--hot">Go</li><li class="chip chip--hot">C++</li>
+              <li class="chip">SQL</li><li class="chip">Ruby</li><li class="chip">PHP</li><li class="chip">C#</li><li class="chip">Swift</li><li class="chip">Kotlin</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">⧉</div>
+            <h3>Frameworks</h3>
+            <ul class="chips">
+              <li class="chip">React</li><li class="chip">Node.js</li><li class="chip">Express</li><li class="chip">Vue.js</li><li class="chip">Angular</li>
+              <li class="chip">Django</li><li class="chip">Flask</li><li class="chip">FastAPI</li><li class="chip">Spring Boot</li>
+              <li class="chip">Hibernate</li><li class="chip">Rails</li><li class="chip">Laravel</li><li class="chip">.NET Core</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">☁</div>
+            <h3>Cloud &amp; DevOps</h3>
+            <ul class="chips">
+              <li class="chip">AWS</li><li class="chip">Azure</li><li class="chip">GCP</li><li class="chip">Docker</li><li class="chip">Kubernetes</li>
+              <li class="chip">GitHub Actions</li><li class="chip">Jenkins</li><li class="chip">GitLab CI</li>
+              <li class="chip">Datadog</li><li class="chip">Prometheus</li><li class="chip">Grafana</li><li class="chip">ELK</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">⚙</div>
+            <h3>Engineering</h3>
+            <ul class="chips">
+              <li class="chip">Algorithms &amp; DS</li><li class="chip">System Design</li><li class="chip">SOLID / OOP</li><li class="chip">Design Patterns</li>
+              <li class="chip">TDD</li><li class="chip">REST</li><li class="chip">GraphQL</li><li class="chip">gRPC</li>
+              <li class="chip">Concurrency</li><li class="chip">Profiling</li><li class="chip">DB Optimization</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">◫</div>
+            <h3>Data &amp; Messaging</h3>
+            <ul class="chips">
+              <li class="chip">PostgreSQL</li><li class="chip">MySQL</li><li class="chip">MongoDB</li><li class="chip">Redis</li><li class="chip">Kafka</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">✦</div>
+            <h3>AI &amp; Evaluation</h3>
+            <ul class="chips">
+              <li class="chip">AI training code review</li><li class="chip">Rubric-based evaluation</li><li class="chip">Code comparison</li>
+              <li class="chip">Machine Learning (Stanford)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">03 — Experience</p>
+          <h2>Where I've shipped.</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="job reveal">
+            <div class="job__meta">
+              <span class="job__date">Jan 2019 — Present</span>
+              <span class="job__loc">Austin, TX</span>
+            </div>
+            <div class="job__card">
+              <header>
+                <h3>Senior Software Engineer</h3>
+                <p class="job__co">TechVision Solutions</p>
+              </header>
+              <ul class="wins">
+                <li><b>-60%</b><span>API response time</span></li>
+                <li><b>2h → 15m</b><span>deploy time</span></li>
+                <li><b>95 → 99.7%</b><span>uptime</span></li>
+              </ul>
+              <ul class="job__list">
+                <li>Design and build full-stack apps on React, Node.js, Python and PostgreSQL serving <strong>500K+ MAU</strong>.</li>
+                <li>Architect Go and Python microservices on Docker and Kubernetes; led the refactor of a legacy monolith into services.</li>
+                <li>Lead code reviews for an 8-person team, focused on quality, security, maintainability and performance.</li>
+                <li>Built an internal code-quality tool that detects common anti-patterns before merge.</li>
+                <li>Author API specs, architecture docs and engineering standards; ran technical interviews for <strong>50+ candidates</strong>.</li>
+                <li>Mentor junior developers through pair programming and guidance on architecture, algorithms and design patterns.</li>
+              </ul>
+              <ul class="tags"><li>React</li><li>Node.js</li><li>Python</li><li>Go</li><li>PostgreSQL</li><li>Kubernetes</li><li>CI/CD</li></ul>
+            </div>
+          </li>
+
+          <li class="job reveal">
+            <div class="job__meta">
+              <span class="job__date">Mar 2015 — Dec 2018</span>
+              <span class="job__loc">San Francisco, CA</span>
+            </div>
+            <div class="job__card">
+              <header>
+                <h3>Full-Stack Software Engineer</h3>
+                <p class="job__co">DataFlow Systems</p>
+              </header>
+              <ul class="wins">
+                <li><b>10M+</b><span>requests / day</span></li>
+                <li><b>100K</b><span>events / sec</span></li>
+                <li><b>+70%</b><span>app performance</span></li>
+              </ul>
+              <ul class="job__list">
+                <li>Built scalable web apps with React, Vue.js, Flask, Spring Boot and MySQL.</li>
+                <li>Developed REST APIs handling <strong>10M+ daily requests</strong> for web and mobile clients.</li>
+                <li>Created a Python/Kafka real-time pipeline processing <strong>100K events per second</strong>.</li>
+                <li>Implemented OAuth 2.0 / JWT auth, automated testing and production debugging workflows.</li>
+                <li>Improved performance 70% via query optimization and Redis caching; cut deployment errors 80% with automated tooling.</li>
+                <li>Mentored five junior engineers — three were promoted within 18 months.</li>
+              </ul>
+              <ul class="tags"><li>React</li><li>Vue.js</li><li>Flask</li><li>Spring Boot</li><li>Kafka</li><li>Redis</li><li>MySQL</li></ul>
+            </div>
+          </li>
+
+          <li class="job reveal">
+            <div class="job__meta">
+              <span class="job__date">Jun 2012 — Feb 2015</span>
+              <span class="job__loc">Seattle, WA</span>
+            </div>
+            <div class="job__card">
+              <header>
+                <h3>Software Developer</h3>
+                <p class="job__co">Innovate Labs</p>
+              </header>
+              <ul class="wins">
+                <li><b>4.8★</b><span>App Store rating</span></li>
+                <li><b>100K+</b><span>downloads in 6 mo</span></li>
+                <li><b>3.2 → 0.4%</b><span>crash rate</span></li>
+              </ul>
+              <ul class="job__list">
+                <li>Developed iOS and Android apps in Swift, Objective-C, Java and Kotlin.</li>
+                <li>Led an iOS app to a <strong>4.8/5 rating and 100K+ downloads</strong> in its first six months.</li>
+                <li>Built Node.js / Express / MongoDB backends; shipped push notifications, in-app purchases and third-party integrations.</li>
+                <li>Implemented offline-first functionality and drove crash rate down through testing, profiling and logging.</li>
+              </ul>
+              <ul class="tags"><li>Swift</li><li>Objective-C</li><li>Kotlin</li><li>Java</li><li>Node.js</li><li>MongoDB</li></ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">04 — Projects &amp; Open Source</p>
+          <h2>Things I've built in the open.</h2>
+        </div>
+
+        <div class="projects">
+          <article class="project project--feature reveal">
+            <div class="project__top">
+              <span class="project__badge">VS Code Extension</span>
+              <span class="project__icon" aria-hidden="true">⌘</span>
+            </div>
+            <h3>CodeEval</h3>
+            <p>An AI-assisted code-quality extension for VS Code. Flags anti-patterns, risky constructs and maintainability issues inline — the same instincts I apply in code review, packaged as tooling.</p>
+            <div class="project__mock" aria-hidden="true">
+              <div class="mock-line"><span class="ln">12</span><span class="kw">for</span> i <span class="kw">in</span> range(len(items)):</div>
+              <div class="mock-line warn"><span class="ln">13</span>&nbsp;&nbsp;result = result + [items[i]]</div>
+              <div class="mock-hint">⚠ CodeEval: O(n²) list concatenation — use <code>append()</code> or a comprehension</div>
+            </div>
+            <ul class="tags"><li>TypeScript</li><li>VS Code API</li><li>LLMs</li><li>Static analysis</li></ul>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__top">
+              <span class="project__badge">Web Platform</span>
+              <span class="project__icon" aria-hidden="true">▤</span>
+            </div>
+            <h3>AlgoViz</h3>
+            <p>An interactive platform for visualizing algorithms step-by-step — sorting, graph traversal and dynamic programming made tangible.</p>
+            <div class="bars" aria-hidden="true">
+              <span style="--h:40%"></span><span style="--h:75%"></span><span style="--h:25%"></span><span style="--h:90%"></span>
+              <span style="--h:55%"></span><span style="--h:65%"></span><span style="--h:30%"></span><span style="--h:80%"></span>
+            </div>
+            <ul class="tags"><li>React</li><li>TypeScript</li><li>Algorithms</li></ul>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__top">
+              <span class="project__badge">npm Package</span>
+              <span class="project__icon" aria-hidden="true">⏱</span>
+            </div>
+            <h3>API Rate Limiter</h3>
+            <p>A maintained npm package for API rate limiting, trusted by production services with <strong>50K+ weekly downloads</strong>.</p>
+            <ul class="tags"><li>Node.js</li><li>Redis</li><li>Open Source</li></ul>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__top">
+              <span class="project__badge">Open Source</span>
+              <span class="project__icon" aria-hidden="true">⑂</span>
+            </div>
+            <h3>Django Contributor</h3>
+            <p>Active contributor to Django with <strong>15+ merged pull requests</strong>, plus contributions across the React ecosystem.</p>
+            <ul class="tags"><li>Python</li><li>Django</li><li>React</li></ul>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__top">
+              <span class="project__badge">Writing</span>
+              <span class="project__icon" aria-hidden="true">✎</span>
+            </div>
+            <h3>DevBlog</h3>
+            <p>A software engineering publication with <strong>60+ technical articles</strong> and tutorials on architecture, performance and clean code.</p>
+            <ul class="tags"><li>Technical Writing</li><li>Tutorials</li></ul>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__top">
+              <span class="project__badge">Community</span>
+              <span class="project__icon" aria-hidden="true">✓</span>
+            </div>
+            <h3>Stack Overflow</h3>
+            <p><strong>8,500+ reputation</strong> answering questions on Python, JavaScript, system design and debugging.</p>
+            <a class="project__link" href="https://stackoverflow.com/users/jamesstevic" target="_blank" rel="noopener">View profile →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CODE REVIEW ============ -->
+    <section class="section" id="review">
+      <div class="container review">
+        <div class="section__head reveal">
+          <p class="kicker">05 — Code Review &amp; Technical Evaluation</p>
+          <h2>I read code the way a compiler can't.</h2>
+          <p class="section__sub">Whether it's a teammate's pull request or AI-generated training data, I evaluate code against a clear rubric — and explain the reasoning step by step.</p>
+        </div>
+
+        <div class="review__grid">
+          <div class="review__pillars reveal">
+            <div class="pillar"><span>01</span><div><h4>Correctness</h4><p>Bugs, edge cases, off-by-ones and broken invariants.</p></div></div>
+            <div class="pillar"><span>02</span><div><h4>Security</h4><p>Injection, auth flaws, unsafe input handling and secrets.</p></div></div>
+            <div class="pillar"><span>03</span><div><h4>Performance</h4><p>Complexity analysis, bottlenecks and concrete optimizations.</p></div></div>
+            <div class="pillar"><span>04</span><div><h4>Maintainability</h4><p>Readability, code smells, SOLID and idiomatic style.</p></div></div>
+            <div class="pillar"><span>05</span><div><h4>Trade-offs</h4><p>Comparing implementations and explaining which wins and why.</p></div></div>
+          </div>
+
+          <div class="diff reveal" aria-label="Example review">
+            <div class="terminal__bar">
+              <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+              <span class="terminal__title">review: users/query.py</span>
+            </div>
+            <div class="diff__body">
+              <div class="d d--del"><span>-</span>sql = f"SELECT * FROM users WHERE id = {user_id}"</div>
+              <div class="d d--del"><span>-</span>return db.execute(sql).fetchall()</div>
+              <div class="d d--add"><span>+</span>sql = "SELECT id, name, email FROM users WHERE id = %s"</div>
+              <div class="d d--add"><span>+</span>return db.execute(sql, (user_id,)).fetchone()</div>
+              <div class="comment">
+                <div class="comment__head"><span class="avatar">CS</span><b>Christian</b> <em>requested changes</em></div>
+                <ol>
+                  <li><b class="sev sev--high">Security</b> f-string interpolation allows SQL injection — use a parameterized query.</li>
+                  <li><b class="sev sev--med">Perf</b> <code>SELECT *</code> over-fetches; select only needed columns.</li>
+                  <li><b class="sev sev--low">Correctness</b> lookup by PK returns at most one row — <code>fetchone()</code> matches intent.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CREDENTIALS ============ -->
+    <section class="section section--alt" id="credentials">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">06 — Education &amp; Certifications</p>
+          <h2>Credentials.</h2>
+        </div>
+        <div class="creds">
+          <article class="cred cred--edu reveal">
+            <span class="cred__year">2012</span>
+            <h3>B.S. Computer Science</h3>
+            <p>University of Texas at Austin</p>
+            <span class="cred__honor">Magna Cum Laude</span>
+          </article>
+          <article class="cred reveal">
+            <span class="cred__year">2023</span>
+            <h3>AWS Certified Solutions Architect — Professional</h3>
+            <p>Amazon Web Services</p>
+          </article>
+          <article class="cred reveal">
+            <span class="cred__year">2022</span>
+            <h3>Certified Kubernetes Application Developer (CKAD)</h3>
+            <p>CNCF / Linux Foundation</p>
+          </article>
+          <article class="cred reveal">
+            <span class="cred__year">2021</span>
+            <h3>Oracle Certified Professional: Java SE 11 Developer</h3>
+            <p>Oracle</p>
+          </article>
+          <article class="cred reveal">
+            <span class="cred__year">2024</span>
+            <h3>Machine Learning Specialization</h3>
+            <p>Coursera / Stanford</p>
+          </article>
+          <article class="cred reveal">
+            <span class="cred__year">2023</span>
+            <h3>System Design Interview</h3>
+            <p>Educative</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__card reveal">
+          <p class="kicker">07 — Contact</p>
+          <h2>Let's build something reliable.</h2>
+          <p>I'm open to senior engineering roles, technical leadership, and AI code-evaluation work. The fastest way to reach me is email.</p>
+          <div class="contact__actions">
+            <a href="mailto:stevicchrisjames@gmail.com" class="btn btn--lg">stevicchrisjames@gmail.com</a>
+            <button class="btn btn--ghost btn--lg" id="copyEmail" data-email="stevicchrisjames@gmail.com">Copy email</button>
+          </div>
+          <ul class="contact__links">
+            <li><a href="https://github.com/jamesstevic-dev" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/jamesstevic-eng" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://stackoverflow.com/users/jamesstevic" target="_blank" rel="noopener">Stack Overflow</a></li>
+            <li><a href="https://devthompson.tech" target="_blank" rel="noopener">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Christian James Stevic</p>
+      <p class="mono">Built with plain HTML, CSS &amp; JS — no framework required.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
